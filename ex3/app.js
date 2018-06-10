@@ -9,7 +9,7 @@ new Vue({
             }
         },
         watch: {
-            value: function (value) {
+            result: function (value) {
                 var vm = this;
                 setTimeout(function () {
                     vm.value = 0;
